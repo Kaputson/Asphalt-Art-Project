@@ -19,7 +19,7 @@ This project was created on Code.org's JavaLab platform using the built-in Neigh
 
 ## Output:
 
-< Put sketch / Final image here >
+![the output of my asphalt art project](mural.png)
 
 ## Reflection
 
