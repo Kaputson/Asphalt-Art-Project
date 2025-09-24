@@ -50,6 +50,6 @@ public class NeighborhoodRunner {
     Layl.move();
     Layl.move();
     Layl.paint("yellow");
-    //painter finished painting
+    
   }
   }

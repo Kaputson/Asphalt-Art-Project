@@ -1,8 +1,13 @@
 import org.code.neighborhood.*;
 
 public class PokePainter extends PainterPlus{
-   // goes down the asphalt painting half of the birds face
-  public void paintFaceSide() {
+   /*
+  Paints the face of the pokemon
+  The color selected is yellow
+  As well as paints the beak orange
+  Finally, it paints the eyes black (two eyes)
+  */
+  public void paintFaceSide() { // Paints the first half of the face including the eyes
      move();
      turnLeft();
      paint("yellow");
@@ -44,8 +49,8 @@ public class PokePainter extends PainterPlus{
      
      
    }
-  // Painter paints the left cheek but if it's not facing east it will paint what should be the right cheek
-public void paintCheek() {
+ 
+public void paintCheek() {//Painter paints the left cheek but if it's not facing east it will paint what should be the right cheek
   if (isFacingEast()){
     paint("yellow");
     move();
@@ -75,8 +80,8 @@ public void paintCheek() {
   }
   
 }
-  //painter paints the bill of the bird
-  public void paintBill() {
+ 
+  public void paintBill() {//painter paints the bill of the bird
     paint("orange");
     move();
     paint("orange");

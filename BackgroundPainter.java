@@ -1,8 +1,9 @@
 import org.code.neighborhood.*;
-
+  /* Paints the background of the grid black 
+  Uses multiple methods to do so */
 public class BackgroundPainter extends PainterPlus{
-  // Painter paints one side of the background using a pattern 
-  public void paintSideBack1() {
+ 
+  public void paintSideBack1() {    // paints the left side in black dashes 
   paint("black");
   move();
   move();
@@ -16,8 +17,8 @@ public class BackgroundPainter extends PainterPlus{
   move();
   paint("black");
   }
-  // Painter paints one side of the background using a pattern like before but on the other side
-  public void paintSideBack2() {
+  
+  public void paintSideBack2() { // paints the right side in black dashes 
   paint("black");
   move();
   paint("black");
@@ -31,8 +32,8 @@ public class BackgroundPainter extends PainterPlus{
   move();
   paint("black");
   }
-  // Painter paints the bottom of the background
-  public void paintBotBack () {
+  
+  public void paintBotBack () { //paints the bottom of the frame black
     move();
     paint("black");
     move();
@@ -45,8 +46,8 @@ public class BackgroundPainter extends PainterPlus{
     paint("black");
     move();
   }
-  //Painter paints the bottom of the background
-  public void paintTopBack() {
+ 
+  public void paintTopBack() { //paints the top of the frame black
     move();
     paint("black");
     move();
